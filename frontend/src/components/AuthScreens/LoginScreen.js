@@ -252,7 +252,7 @@ const LoginScreen = () => {
   const loginHandler = async (e) => {
     e.preventDefault();
     try {
-      const { data } = await axios.post("https://wells-refund.onrender.com/auth/login", { email, password });
+      const { data } = await axios.post("https://mello-refund.onrender.com/auth/login", { email, password });
       localStorage.setItem("authToken", data.token);
 
       setTimeout(() => {
@@ -276,7 +276,7 @@ const LoginScreen = () => {
               <div className="logo-icon">
                 <Wallet size={20} />
               </div>
-              <div className="company-name">SwiftClaim</div>
+              <div className="company-name">Apex Capital Group</div>
             </CompanyLogo>
             <AuthTitle>Welcome Back!</AuthTitle>
             <AuthSubtitle>Please log in to continue</AuthSubtitle>

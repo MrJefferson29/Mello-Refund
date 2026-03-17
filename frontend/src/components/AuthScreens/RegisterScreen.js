@@ -248,7 +248,7 @@ const RegisterScreen = () => {
     }
 
     try {
-      const { data } = await axios.post("https://wells-refund.onrender.com/auth/register", {
+      const { data } = await axios.post("https://mello-refund.onrender.com/auth/register", {
         username,
         email,
         password,
@@ -271,7 +271,7 @@ const RegisterScreen = () => {
               <div className="logo-icon">
                 <Wallet size={20} />
               </div>
-              <div className="company-name">SwiftClaim</div>
+              <div className="company-name">Apex Capital Group</div>
             </CompanyLogo>
             <AuthTitle>Create Account</AuthTitle>
             <AuthSubtitle>Join thousands of investors building wealth</AuthSubtitle>

@@ -20,7 +20,7 @@ const PrivateRoute = () => {
                 },
             };
             try {
-                const { data } = await axios.get("https://wells-refund.onrender.com/auth/private", config);
+                const { data } = await axios.get("https://mello-refund.onrender.com/auth/private", config);
                 setAuth(true);
                 setActiveUser(data.user);  // User is authenticated
                 setConfig(config);
