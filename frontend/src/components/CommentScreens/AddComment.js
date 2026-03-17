@@ -96,7 +96,6 @@ const AddComment = ({ setSidebarShowStatus, slug, getStoryComments, activeUser, 
                         <img src={`https://mello-refund.onrender.com/userPhotos/${activeUser.photo}`} alt={activeUser.username} />
                         <span className='username'>{activeUser.username}  </span>
                     </div>
-
                     <div className="textarea-wrapper">
                         <div ref={textareaRef}
                             contentEditable
